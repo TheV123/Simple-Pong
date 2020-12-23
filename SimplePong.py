@@ -46,8 +46,8 @@ ball.shape("circle")
 ball.color("blue")
 ball.penup()
 ball.goto(0,0)
-ball.dx = .2
-ball.dy = .2
+ball.dx = 5 #based on computer speed so a higer/lower value maybe required depending on computer
+ball.dy = 5
 
 #score
 score_p1 = 0
